@@ -1,0 +1,70 @@
+[
+  {
+    "id": "e89888b9-5fb8-49b0-a211-23926666df3a",
+    "selection_id": 1,
+    "selection_name": "Battery Safety Review",
+    "version": "v2",
+    "created_at": "2026-10-23T16:26:40.687583+00:00",
+    "generation_method": "deterministic_template_fallback",
+    "sources": [
+      {
+        "node_id": "v2:2.1.1.1",
+        "number": "2.1.1.1",
+        "heading": "Battery Life Under Typical Use",
+        "content_hash": "0b3a7095bb39ebaf0033c550507a922ebafef0f17c96f6f631034d81adf2fedb"
+      },
+      {
+        "node_id": "v2:4.2",
+        "number": "4.2",
+        "heading": "Error Codes",
+        "content_hash": "7338cc60bed15414ec5259062dbf81c8aa6509cfd6c8da6135efae7c02db920b"
+      }
+    ],
+    "cases": [
+      {
+        "case_id": "336a84e6-bcbe-44b1-914a-a0ba6e2432b8",
+        "title": "Verify key requirements in Battery Life Under Typical Use",
+        "objective": "Check that the documented requirements for Battery Life Under Typical Use are represented correctly.",
+        "steps": [
+          "Open the relevant device or application workflow.",
+          "Exercise the requirement described in the selected manual section.",
+          "Compare the observed behavior with the documented requirement."
+        ],
+        "expected_result": "Under typical use (three measurements per day), four AA alkaline batteries provide approximately 250 measurement cycles before requiring replacement — revised downward from earlier estimates after extended ﬁeld testing."
+      },
+      {
+        "case_id": "fed91292-9f07-495e-bf6b-9cee32cb8ec8",
+        "title": "Check boundary and invalid conditions for Battery Life Under Typical Use",
+        "objective": "Verify safe and predictable behavior at relevant limits and invalid inputs.",
+        "steps": [
+          "Identify a documented limit or invalid condition.",
+          "Exercise the condition in a controlled test environment.",
+          "Observe the response and any warning or error indication."
+        ],
+        "expected_result": "The device responds consistently with the documented limits and safety behavior."
+      },
+      {
+        "case_id": "3a8bc912-a3c9-475a-8d8c-89970be2c37e",
+        "title": "Verify recovery and repeatability for Battery Life Under Typical Use",
+        "objective": "Check that the documented behavior remains consistent across repeated use or recovery.",
+        "steps": [
+          "Run the relevant operation once.",
+          "Repeat it or recover from the applicable condition.",
+          "Compare the outcome with the manual."
+        ],
+        "expected_result": "The operation behaves consistently with the selected manual section."
+      },
+      {
+        "case_id": "9dca4fa3-1d86-4956-8f00-51f0fb95e1ef",
+        "title": "Validate manual detail for Battery Life Under Typical Use",
+        "objective": "Check a specific statement in the source section against the implementation.",
+        "steps": [
+          "Locate the selected section in the source manual.",
+          "Identify a concrete statement or parameter.",
+          "Verify the corresponding behavior or configuration."
+        ],
+        "expected_result": "The device displays a low‑battery icon once remaining capacity falls below 10%."
+      }
+    ]
+  }
+]
