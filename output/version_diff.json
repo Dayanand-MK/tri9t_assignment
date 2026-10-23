@@ -1,0 +1,189 @@
+{
+  "old_document": "ct200_manual.pdf",
+  "new_document": "ct200_manual_v2.pdf",
+  "summary": {
+    "unchanged": 23,
+    "changed": 4,
+    "added": 1,
+    "removed": 0
+  },
+  "changes": [
+    {
+      "section_number": "1",
+      "status": "unchanged",
+      "old_heading": "Normal: systolic < 120 and diastolic < 80",
+      "new_heading": "Normal: systolic < 120 and diastolic < 80"
+    },
+    {
+      "section_number": "1.1",
+      "status": "unchanged",
+      "old_heading": "Intended Use",
+      "new_heading": "Intended Use"
+    },
+    {
+      "section_number": "1.2",
+      "status": "unchanged",
+      "old_heading": "Indications and Contraindications",
+      "new_heading": "Indications and Contraindications"
+    },
+    {
+      "section_number": "2",
+      "status": "unchanged",
+      "old_heading": "Elevated: systolic 120–129 and diastolic < 80",
+      "new_heading": "Elevated: systolic 120–129 and diastolic < 80"
+    },
+    {
+      "section_number": "2.1",
+      "status": "unchanged",
+      "old_heading": "General Speciﬁcations",
+      "new_heading": "General Speciﬁcations"
+    },
+    {
+      "section_number": "2.1.1.1",
+      "status": "changed",
+      "old_heading": "Battery Life Under Typical Use",
+      "new_heading": "Battery Life Under Typical Use",
+      "old_body": "Under typical use (three measurements per day), four AA alkaline batteries provide approximately 300 measurement cycles before requiring replacement. The device displays a low‑battery icon once remaining capacity falls below 15%.",
+      "new_body": "Under typical use (three measurements per day), four AA alkaline batteries provide approximately 250 measurement cycles before requiring replacement — revised downward from earlier estimates after extended ﬁeld testing. The device displays a low‑battery icon once remaining capacity falls below 10%."
+    },
+    {
+      "section_number": "2.2",
+      "status": "unchanged",
+      "old_heading": "Cuﬀ Speciﬁcations",
+      "new_heading": "Cuﬀ Speciﬁcations"
+    },
+    {
+      "section_number": "3",
+      "status": "unchanged",
+      "old_heading": "Hypertension Stage 1: systolic 130–139 or diastolic 80–89",
+      "new_heading": "Hypertension Stage 1: systolic 130–139 or diastolic 80–89"
+    },
+    {
+      "section_number": "3.1",
+      "status": "unchanged",
+      "old_heading": "Powering On and Proﬁle Selection",
+      "new_heading": "Powering On and Proﬁle Selection"
+    },
+    {
+      "section_number": "3.2",
+      "status": "changed",
+      "old_heading": "Cuﬀ Inﬂation Sequence",
+      "new_heading": "Cuﬀ Inﬂation Sequence",
+      "old_body": "On starting a measurement, the device inﬂates the cuﬀ to an initial target of 180 mmHg. If the user's pulse is not detected by 180 mmHg, the device inﬂates in 40 mmHg increments up to a maximum of 299 mmHg before aborting with an error. Deﬂation occurs in controlled steps of approximately 3 mmHg to capture oscillometric pulse data.",
+      "new_body": "On starting a measurement, the device inﬂates the cuﬀ to an initial target of 180 mmHg. If the user's pulse is not detected by 180 mmHg, the device inﬂates in 30 mmHg increments up to a maximum of 299 mmHg before aborting with an error. Deﬂation occurs in controlled steps of approximately 3 mmHg to capture oscillometric pulse data. Increment size was reduced from the original 40 mmHg to improve pulse-detection reliability in ﬁeld testing."
+    },
+    {
+      "section_number": "3.3",
+      "status": "unchanged",
+      "old_heading": "Result Display and Classiﬁcation",
+      "new_heading": "Result Display and Classiﬁcation"
+    },
+    {
+      "section_number": "3.4",
+      "status": "unchanged",
+      "old_heading": "Auto Shutoﬀ",
+      "new_heading": "Auto Shutoﬀ"
+    },
+    {
+      "section_number": "4",
+      "status": "unchanged",
+      "old_heading": "Alarms and Safety Behavior",
+      "new_heading": "Alarms and Safety Behavior"
+    },
+    {
+      "section_number": "4.1",
+      "status": "unchanged",
+      "old_heading": "Overpressure Protection",
+      "new_heading": "Overpressure Protection"
+    },
+    {
+      "section_number": "4.2",
+      "status": "changed",
+      "old_heading": "Error Codes",
+      "new_heading": "Error Codes",
+      "old_body": "Code Meaning Device Behavior Aborts measurement, displays E1 E1 Cuﬀ not connected or leak detected E2 Motion artifact detected during measurement Aborts measurement, displays E2, prompts retry E3 Overpressure condition Auto-deﬂates within 2 seconds, displays E3 Aborts measurement, displays E4 E4 Low battery during measurement E5 Internal sensor fault Device disables measurement function, displays E5 until serviced",
+      "new_body": "Code Meaning Device Behavior Aborts measurement, displays E1 E1 Cuﬀ not connected or leak detected E2 Motion artifact detected during measurement Aborts measurement, displays E2, prompts retry E3 Overpressure condition Auto-deﬂates within 1.5 seconds, displays E3 Aborts measurement, displays E4 E4 Low battery during measurement E5 Internal sensor fault Device disables measurement function, displays E5 until serviced E6 Bluetooth sync failure Displays E6 on next sync attempt; does not aﬀect measurement"
+    },
+    {
+      "section_number": "4.3",
+      "status": "changed",
+      "old_heading": "Alarm Thresholds",
+      "new_heading": "Alarm Thresholds",
+      "old_body": "The device does not sound an audible alarm for elevated readings by default; audible alarms are limited to the E1–E5 error conditions above and are user‑conﬁgurable in the settings menu, except for E3 (overpressure), which cannot be silenced for safety reasons.",
+      "new_body": "The device does not sound an audible alarm for elevated readings by default; audible alarms are limited to the E1–E6 error conditions above and are user‑conﬁgurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons."
+    },
+    {
+      "section_number": "5",
+      "status": "unchanged",
+      "old_heading": "Data Management",
+      "new_heading": "Data Management"
+    },
+    {
+      "section_number": "5.1",
+      "status": "unchanged",
+      "old_heading": "Local Storage",
+      "new_heading": "Local Storage"
+    },
+    {
+      "section_number": "5.2",
+      "status": "unchanged",
+      "old_heading": "Bluetooth Sync",
+      "new_heading": "Bluetooth Sync"
+    },
+    {
+      "section_number": "5.3",
+      "status": "added",
+      "old_heading": null,
+      "new_heading": "Data Export",
+      "new_body": "Starting with ﬁrmware 1.4, the companion app supports exporting stored readings as a CSV ﬁle containing timestamp, proﬁle, systolic, diastolic, pulse, and classiﬁcation columns. Export requires the device to have completed at least one successful Bluetooth sync in the current session."
+    },
+    {
+      "section_number": "6",
+      "status": "unchanged",
+      "old_heading": "Maintenance and Cleaning",
+      "new_heading": "Maintenance and Cleaning"
+    },
+    {
+      "section_number": "6.1",
+      "status": "unchanged",
+      "old_heading": "Cleaning Instructions",
+      "new_heading": "Cleaning Instructions"
+    },
+    {
+      "section_number": "6.2",
+      "status": "unchanged",
+      "old_heading": "Calibration",
+      "new_heading": "Calibration"
+    },
+    {
+      "section_number": "7",
+      "status": "unchanged",
+      "old_heading": "Troubleshooting",
+      "new_heading": "Troubleshooting"
+    },
+    {
+      "section_number": "7.1",
+      "status": "unchanged",
+      "old_heading": "Error Codes",
+      "new_heading": "Error Codes"
+    },
+    {
+      "section_number": "7.2",
+      "status": "unchanged",
+      "old_heading": "Inconsistent Readings",
+      "new_heading": "Inconsistent Readings"
+    },
+    {
+      "section_number": "8",
+      "status": "unchanged",
+      "old_heading": "Regulatory Information",
+      "new_heading": "Regulatory Information"
+    },
+    {
+      "section_number": "8.1",
+      "status": "unchanged",
+      "old_heading": "Classiﬁcation",
+      "new_heading": "Classiﬁcation"
+    }
+  ]
+}

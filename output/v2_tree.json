@@ -1,0 +1,424 @@
+{
+  "document_title": "CardioTrack CT-200 Home Blood Pressure Monitor — Technical & User Manual",
+  "source_file": "ct200_manual_v2.pdf",
+  "page_count": 7,
+  "sections": [
+    {
+      "number": "1",
+      "heading": "Device Overview",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "parent_number": null,
+      "children": [
+        {
+          "number": "1.1",
+          "heading": "Intended Use",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 1,
+          "parent_number": "1",
+          "children": [],
+          "warnings": [],
+          "body": "The CT-200 is intended to non-invasively measure blood pressure and pulse rate in adults with an arm circumference of 22–42 cm. It is not intended for use on neonates, infants, or pregnant users, and is not a diagnostic device — readings should be interpreted by a qualiﬁed clinician.",
+          "content_hash": "45d8629026948b19403068aae6633473b6f50d15ac7794cae1e85ea55a6b9f93"
+        },
+        {
+          "number": "1.2",
+          "heading": "Indications and Contraindications",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 1,
+          "parent_number": "1",
+          "children": [],
+          "warnings": [],
+          "body": "The device should not be used on the arm ipsilateral to a mastectomy, on limbs with an active intravenous line, or on users with severe arrhythmia without clinician guidance, since oscillometric measurement can be unreliable in these cases.",
+          "content_hash": "1a77553744c461eb0a67beecb57a1e731d6f0fee2e8ef02a511ea8f7caabe5d3"
+        }
+      ],
+      "warnings": [],
+      "body": "The CardioTrack CT-200 is an oscillometric, upper-arm blood pressure monitor intended for home use by adult users. It measures systolic pressure, diastolic pressure, and pulse rate, and stores up to 200 readings across two user proﬁles.",
+      "content_hash": "d675f7b05c7fe48eed446a027d75b5e7694c98e4231dcf023b4cb328a281ce90"
+    },
+    {
+      "number": "2",
+      "heading": "Physical and Electrical Speciﬁcations",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "parent_number": null,
+      "children": [
+        {
+          "number": "2.1",
+          "heading": "General Speciﬁcations",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "parent_number": "2",
+          "children": [
+            {
+              "number": "2.1.1.1",
+              "heading": "Battery Life Under Typical Use",
+              "level": 4,
+              "page_start": 2,
+              "page_end": 2,
+              "parent_number": "2.1",
+              "children": [],
+              "warnings": [
+                "Missing or non-adjacent parent heading 2.1.1; attached to 2.1."
+              ],
+              "body": "Under typical use (three measurements per day), four AA alkaline batteries provide approximately 250 measurement cycles before requiring replacement — revised downward from earlier estimates after extended ﬁeld testing. The device displays a low‑battery icon once remaining capacity falls below 10%.",
+              "content_hash": "0b3a7095bb39ebaf0033c550507a922ebafef0f17c96f6f631034d81adf2fedb"
+            }
+          ],
+          "warnings": [],
+          "body": "Parameter Value Measurement method Oscillometric Pressure range 0–299 mmHg Pulse range 40–199 bpm Accuracy (pressure) ±3 mmHg Accuracy (pulse) ±5% Power source 4x AA batteries or 6V DC adapter Display Backlit LCD",
+          "content_hash": "affa8564cb02631674086e2a9d03efca4976ac30d47e258ec74a434daa6b7803"
+        },
+        {
+          "number": "2.2",
+          "heading": "Cuﬀ Speciﬁcations",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "parent_number": "2",
+          "children": [],
+          "warnings": [],
+          "body": "The standard cuﬀ supplied with the CT‑200 ﬁts arm circumferences of 22–32 cm. A separate large cuﬀ (part number CT200‑LC) is available for 32–42 cm and must be ordered separately; using the standard cuﬀ outside its rated range will produce inaccurate readings.",
+          "content_hash": "61cb45aeccd88fbc6e526a96f2426b013e5c983d10aea745829a957dc6d19edc"
+        }
+      ],
+      "warnings": [],
+      "body": "",
+      "content_hash": "9f7749317bc650ea14964fea5c67a546906629d8fefbf970d323df8a597a6297"
+    },
+    {
+      "number": "3",
+      "heading": "Device Operation",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "parent_number": null,
+      "children": [
+        {
+          "number": "3.1",
+          "heading": "Powering On and Proﬁle Selection",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 3,
+          "parent_number": "3",
+          "children": [],
+          "warnings": [],
+          "body": "Press and hold the power button for one second to power on the device. Use the proﬁle button to select User 1 or User 2 before beginning a measurement; readings are stored against whichever proﬁle is active at the time of measurement.",
+          "content_hash": "a41b636e3a45f10a9bc6f3d13a61a3db1e2daf4b1a9c2c773960101c948d51f2"
+        },
+        {
+          "number": "3.2",
+          "heading": "Cuﬀ Inﬂation Sequence",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 3,
+          "parent_number": "3",
+          "children": [],
+          "warnings": [],
+          "body": "On starting a measurement, the device inﬂates the cuﬀ to an initial target of 180 mmHg. If the user's pulse is not detected by 180 mmHg, the device inﬂates in 30 mmHg increments up to a maximum of 299 mmHg before aborting with an error. Deﬂation occurs in controlled steps of approximately 3 mmHg to capture oscillometric pulse data. Increment size was reduced from the original 40 mmHg to improve pulse-detection reliability in ﬁeld testing.",
+          "content_hash": "e8cc52686b8f774e4d735cf3c7f65bf8a2bb987c967723350362627bcd1c144c"
+        },
+        {
+          "number": "3.4",
+          "heading": "Auto Shutoﬀ",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 3,
+          "parent_number": "3",
+          "children": [],
+          "warnings": [],
+          "body": "To conserve battery, the CT‑200 automatically powers oﬀ after 60 seconds of inactivity on the home screen, and after 3 minutes of inactivity if a measurement screen is left open without starting a reading.",
+          "content_hash": "1d9853fac9a8b84fdceef4b4cff486323b32edda4d7a23f188aa76e97ef03451"
+        },
+        {
+          "number": "3.3",
+          "heading": "Result Display and Classiﬁcation",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 3,
+          "parent_number": "3",
+          "children": [],
+          "warnings": [],
+          "body": "After a completed measurement, the device displays systolic pressure, diastolic pressure, and pulse rate simultaneously, along with a classiﬁcation indicator (see 2.1, 4.3 for related speciﬁcations and alarm thresholds) based on the most recent joint clinical guidance available at time of manufacture.",
+          "content_hash": "1d5b9876bd53a2499fec19a5a7e1fd7f4d98f61cef37c8f3afda7081fdaf2f23"
+        }
+      ],
+      "warnings": [],
+      "body": "",
+      "content_hash": "5435f987940fb29b0c9cf9cdefaf4a0ab0cb423183a077314230d57d518504d7"
+    },
+    {
+      "number": "1",
+      "heading": "Normal: systolic < 120 and diastolic < 80",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "parent_number": null,
+      "children": [],
+      "warnings": [],
+      "body": "",
+      "content_hash": "54d2e627bde531005ff7b99ba6ab35668c772da4201b70bf29ebc5dcf48ec038"
+    },
+    {
+      "number": "2",
+      "heading": "Elevated: systolic 120–129 and diastolic < 80",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "parent_number": null,
+      "children": [],
+      "warnings": [],
+      "body": "",
+      "content_hash": "cb4719660397a7f3a817a3a19942b235868c080b50fa8e3d8ce91c5141223f3e"
+    },
+    {
+      "number": "3",
+      "heading": "Hypertension Stage 1: systolic 130–139 or diastolic 80–89",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "parent_number": null,
+      "children": [],
+      "warnings": [],
+      "body": "",
+      "content_hash": "4eb55f5f73dd5af6f63134b1f78beba8ebf79c422b95ce9185d6828871fc6e7b"
+    },
+    {
+      "number": "4",
+      "heading": "Hypertension Stage 2: systolic ≥ 140 or diastolic ≥ 90",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "parent_number": null,
+      "children": [],
+      "warnings": [],
+      "body": "",
+      "content_hash": "31436a74546ae9df1c0c0433a9a41968f13b6de0b063a65f43bd7b43f81443f2"
+    },
+    {
+      "number": "5",
+      "heading": "Hypertensive Crisis: systolic > 180 or diastolic > 120 — device",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "parent_number": null,
+      "children": [],
+      "warnings": [],
+      "body": "recommends seeking immediate medical attention",
+      "content_hash": "28dc17a88f65fac816409aa59ba15bcdba43100930d5472f7839675b3ece6965"
+    },
+    {
+      "number": "4",
+      "heading": "Alarms and Safety Behavior",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "parent_number": null,
+      "children": [
+        {
+          "number": "4.1",
+          "heading": "Overpressure Protection",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "parent_number": "4",
+          "children": [],
+          "warnings": [],
+          "body": "If cuﬀ pressure exceeds 299 mmHg at any point, or exceeds 300 mmHg for longer than 3 seconds due to sensor fault, the device immediately triggers an emergency deﬂation valve, halting inﬂation and venting the cuﬀ within 2 seconds, independent of the main ﬁrmware control loop.",
+          "content_hash": "6f44d8ea454c7b80f82c787668ebf95f71ff5c8a67b8c13f860733e98928852e"
+        },
+        {
+          "number": "4.2",
+          "heading": "Error Codes",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "parent_number": "4",
+          "children": [],
+          "warnings": [],
+          "body": "Code Meaning Device Behavior Aborts measurement, displays E1 E1 Cuﬀ not connected or leak detected E2 Motion artifact detected during measurement Aborts measurement, displays E2, prompts retry E3 Overpressure condition Auto-deﬂates within 1.5 seconds, displays E3 Aborts measurement, displays E4 E4 Low battery during measurement E5 Internal sensor fault Device disables measurement function, displays E5 until serviced E6 Bluetooth sync failure Displays E6 on next sync attempt; does not aﬀect measurement",
+          "content_hash": "7338cc60bed15414ec5259062dbf81c8aa6509cfd6c8da6135efae7c02db920b"
+        },
+        {
+          "number": "4.3",
+          "heading": "Alarm Thresholds",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 5,
+          "parent_number": "4",
+          "children": [],
+          "warnings": [],
+          "body": "The device does not sound an audible alarm for elevated readings by default; audible alarms are limited to the E1–E6 error conditions above and are user‑conﬁgurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+          "content_hash": "a423dd814bdd954c17529e8e546b646ba4d4c7097aabb2b229bef08b6c3a347f"
+        }
+      ],
+      "warnings": [],
+      "body": "",
+      "content_hash": "d2329fb2405e81cb44b11f7a56e23a5919337096d0c15b591f89f7ebb91f77f1"
+    },
+    {
+      "number": "5",
+      "heading": "Data Management",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "parent_number": null,
+      "children": [
+        {
+          "number": "5.1",
+          "heading": "Local Storage",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "parent_number": "5",
+          "children": [],
+          "warnings": [],
+          "body": "The CT‑200 stores up to 100 readings per user proﬁle in non‑volatile memory. When storage is full, the oldest reading for that proﬁle is overwritten automatically; there is no user‑facing warning before this occurs.",
+          "content_hash": "03b67aeae87f1dc4e7796dda6304c2af4e5614c1275e86c4479449159afeb234"
+        },
+        {
+          "number": "5.2",
+          "heading": "Bluetooth Sync",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "parent_number": "5",
+          "children": [],
+          "warnings": [],
+          "body": "The device can pair with the CardioTrack companion app via Bluetooth Low Energy. Readings sync automatically when the app is open and the device is within range; there is no manual \"sync now\" trigger in ﬁrmware version 1.x.",
+          "content_hash": "a8a27f9aa30f73253d7de725a0615ce52f93d388996f79b035c7b417c489fb74"
+        },
+        {
+          "number": "5.3",
+          "heading": "Data Export",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "parent_number": "5",
+          "children": [],
+          "warnings": [],
+          "body": "Starting with ﬁrmware 1.4, the companion app supports exporting stored readings as a CSV ﬁle containing timestamp, proﬁle, systolic, diastolic, pulse, and classiﬁcation columns. Export requires the device to have completed at least one successful Bluetooth sync in the current session.",
+          "content_hash": "7f7ca7fb4da9a9f149c251a0d6dc3b0b02115858fc7e23d5fc70342744edd995"
+        }
+      ],
+      "warnings": [],
+      "body": "",
+      "content_hash": "b428e6898ddd0296076f2c30e292c25e868847333af972644503f5367d682d06"
+    },
+    {
+      "number": "6",
+      "heading": "Maintenance and Cleaning",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "parent_number": null,
+      "children": [
+        {
+          "number": "6.1",
+          "heading": "Cleaning Instructions",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 6,
+          "parent_number": "6",
+          "children": [],
+          "warnings": [],
+          "body": "Wipe the device body and cuﬀ exterior with a soft, dry cloth or one lightly dampened with water. Do not submerge the device or cuﬀ, and do not\nuse alcohol, solvents, or abrasive cleaners on the display.",
+          "content_hash": "c4c510cea8fa8d2eef04555773f0540e9fc819c2cb6c7c7579a032328428d46b"
+        },
+        {
+          "number": "6.2",
+          "heading": "Calibration",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "parent_number": "6",
+          "children": [],
+          "warnings": [],
+          "body": "Anthropic recommends professional recalibration every 2 years or after any drop or signiﬁcant impact. The device does not perform self‑calibration; there is no ﬁeld calibration procedure available to end users.",
+          "content_hash": "1647cf1526a1f5ef6aed583e76022c53fe97e123b802f052ee7e3f464ca158c5"
+        }
+      ],
+      "warnings": [],
+      "body": "",
+      "content_hash": "5c2ac14b9a9406b725c8cffbf835234bba0b6ba36a43c22a97dd189fbb90d1c9"
+    },
+    {
+      "number": "7",
+      "heading": "Troubleshooting",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 6,
+      "parent_number": null,
+      "children": [
+        {
+          "number": "7.1",
+          "heading": "Error Codes",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "parent_number": "7",
+          "children": [],
+          "warnings": [],
+          "body": "If a code from Section 4.2 appears and persists after following the on‑screen retry prompt twice, users should discontinue use and contact CardioTrack support rather than attempting further self‑diagnosis, particularly for E5, which indicates an internal sensor fault.",
+          "content_hash": "9dc3fdd165e9f17109482176cd0ae2f8b8fab3042e4095ad47d80c3b2e6f4477"
+        },
+        {
+          "number": "7.2",
+          "heading": "Inconsistent Readings",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "parent_number": "7",
+          "children": [],
+          "warnings": [],
+          "body": "Inconsistent readings between measurements are most commonly caused by cuﬀ mispositioning, talking or moving during measurement, or measuring within 30 minutes of exercise, caﬀeine, or smoking; the manual recommends resting quietly for 5 minutes before remeasuring.",
+          "content_hash": "5c7ae62895e0cd1019cda25b86d85b19589447614b5ba64ecd6a94b90e1b8cfe"
+        }
+      ],
+      "warnings": [],
+      "body": "",
+      "content_hash": "c3af076f92c5ed8dcb0d0b0d36dd120bc31b68264efea96cf8019ca19f1c13a3"
+    },
+    {
+      "number": "8",
+      "heading": "Regulatory Information",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 6,
+      "parent_number": null,
+      "children": [
+        {
+          "number": "8.1",
+          "heading": "Classiﬁcation",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 7,
+          "parent_number": "8",
+          "children": [],
+          "warnings": [],
+          "body": "The CT‑200 is classiﬁed as a Class II medical device under applicable regulations for non‑invasive blood pressure monitors and has been\nvalidated against relevant clinical accuracy standards for oscillometric devices.",
+          "content_hash": "63070e726142cd5c334569d5c95969b1a3c23cf1636f7b88de0e76d1ed15e504"
+        }
+      ],
+      "warnings": [],
+      "body": "",
+      "content_hash": "8f30a3ff1efd25549205dc2d3d7286abd0dd1ab247e1039864eaec3ff9a91c33"
+    }
+  ],
+  "warnings": [
+    "Page 2: 2.1.1.1 Battery Life Under Typical Use has no immediate parent heading 2.1.1.",
+    "1 text lines appeared before the first recognized section and were not assigned to a section."
+  ],
+  "parser_notes": [
+    "Native PDF text extraction used; OCR fallback is not implemented.",
+    "Section-number hierarchy is used; missing intermediate headings are reported as warnings.",
+    "Tables are currently retained as text lines/paragraphs, not guaranteed to be reconstructed as cell grids.",
+    "Repeated heading titles remain distinct when their section numbers differ."
+  ]
+}
