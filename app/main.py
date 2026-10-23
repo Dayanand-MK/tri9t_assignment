@@ -271,3 +271,6 @@ def get_selection(selection_id: int):
 
 from app.generation import router as generation_router
 app.include_router(generation_router, prefix="/qa", tags=["QA Generation"])
+
+from app.generation import router as generation_router
+app.include_router(generation_router, prefix="/qa", tags=["QA Generation"])
